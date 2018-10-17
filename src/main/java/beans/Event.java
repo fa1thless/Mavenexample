@@ -1,3 +1,5 @@
+package beans;
+
 import java.text.DateFormat;
 import java.util.Date;
 
@@ -23,7 +25,7 @@ public class Event {
 
     @Override
     public String toString() {
-        return "Event{" +
+        return "beans.Event{" +
                 " id = " + id +
                 ", msg = '" + msg + '\'' +
                 ", dateFormat = " + dateFormat.format(date) +
